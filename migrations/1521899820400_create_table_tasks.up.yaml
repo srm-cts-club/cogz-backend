@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "tasks"("task_id" serial NOT NULL, "mentor" integer NOT NULL,
+      "task" text NOT NULL, "time" timestamptz NOT NULL DEFAULT now(), "deadline"
+      text NOT NULL, "college" text NOT NULL, PRIMARY KEY ("task_id") )
+  type: run_sql
+- args:
+    name: tasks
+  type: add_existing_table_or_view

@@ -1,0 +1,7 @@
+- alias: hasura
+  config:
+    configmap: controller-conf
+    namespace: cattily94-hasura
+  data: null
+  kubeContext: cattily94
+  name: cattily94

@@ -1,0 +1,4 @@
+.hasura
+node_modules
+npm-debug.log
+microservices/api/src/fcm-key.json

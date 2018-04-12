@@ -1,0 +1,11 @@
+- args:
+    permission:
+      columns:
+      - update_id
+      - update
+      - mentor
+      - time
+      filter: {}
+    role: user
+    table: updates
+  type: create_select_permission

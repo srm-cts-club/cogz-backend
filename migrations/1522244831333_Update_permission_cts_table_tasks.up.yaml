@@ -1,0 +1,9 @@
+- args:
+    permission:
+      allow_upsert: true
+      check:
+        mentor:
+          $eq: X-HASURA-USER-ID
+    role: cts
+    table: tasks
+  type: create_insert_permission

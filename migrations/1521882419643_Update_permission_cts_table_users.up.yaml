@@ -1,0 +1,10 @@
+- args:
+    permission:
+      columns:
+      - fcm_id
+      filter:
+        id:
+          $eq: X-HASURA-USER-ID
+    role: cts
+    table: users
+  type: create_update_permission

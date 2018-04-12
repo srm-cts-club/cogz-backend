@@ -1,0 +1,9 @@
+- args:
+    permission:
+      allow_upsert: true
+      check:
+        sender:
+          $eq: X-HASURA-USER-ID
+    role: user
+    table: chats
+  type: create_insert_permission

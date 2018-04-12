@@ -1,0 +1,8 @@
+- args:
+    sql: CREATE TABLE "updates"("update_id" serial NOT NULL, "update" text NOT NULL,
+      "mentor" integer NOT NULL, "time" timestamptz NOT NULL DEFAULT now(), PRIMARY
+      KEY ("update_id") )
+  type: run_sql
+- args:
+    name: updates
+  type: add_existing_table_or_view

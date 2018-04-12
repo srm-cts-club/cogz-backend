@@ -1,0 +1,12 @@
+- args:
+    permission:
+      columns:
+      - college
+      - deadline
+      - task
+      - task_id
+      - time
+      filter: {}
+    role: user
+    table: tasks
+  type: create_select_permission
